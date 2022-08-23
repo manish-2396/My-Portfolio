@@ -26,10 +26,22 @@ const About = ({ darkMode }) => {
                   <Card.Title><h2 className="lead">Let's have an introduction!</h2></Card.Title>
                   <br></br>
                   <Card.Text>
-                    <p style={{ fontSize: "17px", fontWeight: "500" }}>Enthusiastic aspiring full-stack web developer specialized in <strong>  MERN </strong>  stack  having fascination towards computer and technology. Keen to create new and innovative websites by showcasing my skills. Apart from that a great team player, ability to work with different kinds of people with different thinkings.</p>
+                    <p style={{ fontSize: "17px", fontWeight: "500" }}>
+                      Enthusiastic aspiring full-stack web developer
+                      specialized in <strong>  MERN </strong>
+                      stack  having fascination towards computer and technology.
+                      Keen to create new and innovative websites by showcasing my skills.
+                      Apart from that a great team player, ability to work with different
+                      kinds of people with different thinkings.
+                    </p>
                   </Card.Text>
                   <Card.Text>
-                    <p style={{ fontSize: "17px", fontWeight: "500" }}>     I love to work on exciting projects that test what I've learnt, whilst being exposed to the power and potential of the ever-evolving technologies around us. I'm always looking for better, and more importantly, ethical and accessible ways to solve the common problems we are faced with day-to-day.</p>
+                    <p style={{ fontSize: "17px", fontWeight: "500" }}>
+                      I love to work on exciting projects that test what I've
+                      learnt, whilst being exposed to the power and potential of the ever-evolving
+                      technologies around us. I'm always looking for better, and more importantly,
+                      ethical and accessible ways to solve the common problems we are faced with day-to-day.
+                    </p>
                   </Card.Text>
                   <a href={transcript} target="_blank" rel="noreferrer noopener">
                     <Button variant={darkMode ? "outline-light" : "outline-dark"} className='a'>
@@ -46,7 +58,7 @@ const About = ({ darkMode }) => {
                   <br></br>
 
                   <div>
-                    <h5 style={{ fontWeight: "500" }} >Manish Singh Chouhan  <br />Post Baihar , Balaghat, Madhya Pradesh.<br /> Pin No : 481111 <br/> <strong style={{ fontWeight: "600" }}>7020949932</strong>
+                    <h5 style={{ fontWeight: "500" }} >Manish Singh Chouhan  <br />Post Baihar , Balaghat, Madhya Pradesh.<br /> Pin No : 481111 <br /> <strong style={{ fontWeight: "600" }}>7020949932</strong>
                       <br />
                       <strong style={{ fontWeight: "600" }}>manishchouhan2396@gmail.com</strong>
                     </h5>

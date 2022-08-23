@@ -53,9 +53,9 @@ const Contact = ({ darkMode }) => {
 
                         <h2 className="lead">Contact Details</h2>
                         <div className="contact-text">
-                            <p>Manish Singh Chouhan<br />  At.Post-Baihar,Balaghat, Madhya Pradesh. <br /> Pin No : 481111 <br/> <strong style={{fontWeight:"600"}}>7020949932</strong>
+                            <p>Manish Singh Chouhan<br />  At.Post-Baihar,Balaghat, Madhya Pradesh. <br /> Pin No : 481111 <br /> <strong style={{ fontWeight: "600" }}>7020949932</strong>
                                 <br />
-                                <strong style={{fontWeight:"600"}}>manishchouhan2396@gmail.com</strong>
+                                <strong style={{ fontWeight: "600" }}>manishchouhan2396@gmail.com</strong>
                             </p>
                         </div>
 
@@ -69,17 +69,17 @@ const Contact = ({ darkMode }) => {
                             <Form.Group>
                                 <Form.Control onChange={e => onInputChange(e)} value={templateParams.from_name} name="from_name" className="ph name" type="name" placeholder="Enter your name" />
                             </Form.Group>
-                            <br/>
+                            <br />
                             <Form.Group>
                                 <Form.Control onChange={e => onInputChange(e)} value={templateParams.message} name="message" as="textarea" rows={8} className="ph msg" placeholder="Enter your message" />
                             </Form.Group>
-                            <Button style={{marginTop:"1.3%"}} variant={darkMode ? "outline-light" : "outline-dark"} type="submit">
+                            <Button style={{ marginTop: "1.3%" }} variant={darkMode ? "outline-light" : "outline-dark"} type="submit">
                                 Submit
                             </Button>
                         </Form>
                     </Col>
                 </Row>
-                <br/>
+                <br />
                 <img src={contact} alt="contact" className="contact-img img-fluid" />
             </Container>
 

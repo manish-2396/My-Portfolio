@@ -5,6 +5,8 @@ import Button from 'react-bootstrap/esm/Button'
 import Row from 'react-bootstrap/esm/Row'
 import Col from 'react-bootstrap/esm/Col'
 import Card from 'react-bootstrap/esm/Card'
+import ecommerce from "../media/ecommerce.png"
+import indianexpress from "../media/indianexpress.png"
 
 
 
@@ -28,18 +30,16 @@ const Projects = ({ darkMode }) => {
                                         <div className="flip-card" class="flip-card">
                                             <div class="flip-card-inner">
                                                 <div className="flip-card-front">
-                                                    <Card.Img variant="top" src="https://user-images.githubusercontent.com/87421852/150777740-d1ef5d91-9ea8-449f-9b84-7f5d6c924445.png" />
+                                                    <Card.Img variant="top" src={indianexpress} />
                                                     <Card.Body>
-                                                        <Card.Title align="center">-Clone Of Twitter-</Card.Title>
+                                                        <Card.Title align="center">-Clone Of Indian Express-</Card.Title>
                                                         <Card.Text>
                                                             <td style={{ fontSize: "14px" }}>
                                                                 <p align="center">Features</p>
-                                                                <tr>Posting tweet with upload image from files.</tr>
-                                                                <tr>Real time chat using websocket.</tr>
-                                                                <tr>Added emoji for post and also like functionality.</tr>
-                                                                <tr>Various filter functionalities for explore page.</tr>
-
-
+                                                                <tr>Sign-up & Log-In</tr>
+                                                                <tr>OTP Verification</tr>
+                                                                <tr>Multiple News pages with filter</tr>
+                                                                <tr>Header and Footer with routing functionality</tr>
                                                             </td>
                                                         </Card.Text>
                                                     </Card.Body>
@@ -53,17 +53,11 @@ const Projects = ({ darkMode }) => {
 
                                                     <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="javascript" width="40" height="40" />
 
-
-
-                                                    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original-wordmark.svg" alt="mongodb" width="40" height="40" />
-
-
-
                                                     <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original-wordmark.svg" alt="nodejs" width="40" height="40" />
 
 
 
-                                                    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/express/express-original-wordmark.svg" alt="express" width="40" height="40" />
+                                                    {/* <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/express/express-original-wordmark.svg" alt="express" width="40" height="40" /> */}
 
                                                     <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg" alt="react" width="40" height="40" />
                                                 </div>
@@ -73,10 +67,10 @@ const Projects = ({ darkMode }) => {
                                     <br></br>
                                     <br />
                                     <div>
-                                        <a href="https://unitprojecttwitter-salavisushant.vercel.app/" target="_blank" rel="noreferrer noopener">
+                                        <a href="https://62ff4a0819ae1d6132e30b21--indian-express-037.netlify.app/" target="_blank" rel="noreferrer noopener">
                                             <Button variant={darkMode ? "outline-light" : "outline-dark"} className="sbtn">View Project</Button>
                                         </a>
-                                        <a href="https://github.com/salavisushant/twitter-frontend" target="_blank" rel="noreferrer noopener">
+                                        <a href="https://github.com/manishchouhan2396/IndianExpress_Clone" target="_blank" rel="noreferrer noopener">
                                             <Button variant={darkMode ? "outline-light" : "outline-dark"} className="sbtn">View Github Repo</Button>
                                         </a>
                                     </div>
@@ -90,17 +84,16 @@ const Projects = ({ darkMode }) => {
                                         <div class="flip-card">
                                             <div class="flip-card-inner">
                                                 <div className="flip-card-front">
-                                                    <Card.Img variant="top" src="https://user-images.githubusercontent.com/87421852/148262976-fdbc806f-af6e-4338-b33e-b8d36cb502a7.png" />
+                                                    <Card.Img variant="top" src={ecommerce} />
                                                     <Card.Body>
                                                         <Card.Title align="center">-Clone Of Flipkart-</Card.Title>
                                                         <Card.Text>
                                                             <td style={{ fontSize: "14px" }}>
                                                                 <p align="center">Features</p>
-                                                                <tr>Sign-in/Sign-up page with OTP verification</tr>
-                                                                <tr>Categorization of products with carousel effect</tr>
-                                                                <tr>Various filter functionalities.</tr>
-                                                                <tr>Product page with Pincode verification.</tr>
-
+                                                                <tr>Sign-up page</tr>
+                                                                <tr>Add to carts</tr>
+                                                                {/* <tr>Various filter functionalities.</tr>
+                                                                <tr>Product page with Pincode verification.</tr> */}
                                                             </td>
 
                                                         </Card.Text>
@@ -123,9 +116,9 @@ const Projects = ({ darkMode }) => {
 
                                                     <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original-wordmark.svg" alt="nodejs" width="40" height="40" />
 
-                                                    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original-wordmark.svg" alt="mongodb" width="40" height="40" />
+                                                    {/* <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original-wordmark.svg" alt="mongodb" width="40" height="40" /> */}
 
-                                                    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/express/express-original-wordmark.svg" alt="express" width="40" height="40" />
+                                                    {/* <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/express/express-original-wordmark.svg" alt="express" width="40" height="40" /> */}
 
 
                                                 </div>
@@ -134,32 +127,19 @@ const Projects = ({ darkMode }) => {
                                     </center>
                                     <br></br>
                                     <div>
-                                        {/* <Modal show={show} onHide={handleClose} className="modal">
-                                <Modal.Body></Modal.Body>
-                                <Modal.Footer>
-                                <Button variant="outline-dark" onClick={handleClose}>
-                                    Close
-                                </Button>
-                                <a href="" target="_blank" rel="noreferrer noopener">
-                                    <Button variant="outline-dark">View Github Repo</Button>
-                                </a>
-                                </Modal.Footer>
-                            </Modal> */}
 
-                                        {/* <Button variant={darkMode ? "outline-light" : "outline-dark"} className="sbtn">View Project</Button> */}
-
-                                        <a href="https://vasukomuravelli.github.io/Flipkart_Backend" target="_blank" rel="noreferrer noopener">
+                                        <a href="https://62ff3ae9d580be4ed3244f0a--e-com-website.netlify.app/" target="_blank" rel="noreferrer noopener">
                                             <Button variant={darkMode ? "outline-light" : "outline-dark"} className="sbtn">View Project</Button>
                                         </a>
 
-                                        <a href="https://github.com/salavisushant/Flipkart_Backend" target="_blank" rel="noreferrer noopener">
+                                        <a href="https://github.com/manishchouhan2396/E-com-website" target="_blank" rel="noreferrer noopener">
                                             <Button variant={darkMode ? "outline-light" : "outline-dark"} className="sbtn">View Github Repo</Button>
                                         </a>
                                     </div>
                                     <br></br>
                                 </Card>
                             </Col>
-                            <Col lg={4} sm={12}>
+                            {/* <Col lg={4} sm={12}>
                                 <Card align="center" className="exp" data-theme={darkMode ? "dark" : "light"}>
                                     <br></br>
                                     <center>
@@ -204,7 +184,7 @@ const Projects = ({ darkMode }) => {
                                     </div>
                                     <br></br>
                                 </Card>
-                            </Col>
+                            </Col> */}
                         </Row>
                     </Zoom>
                     <br></br>

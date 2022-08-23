@@ -42,7 +42,7 @@ function App() {
                 <Nav.Link href="#skills" className="link">
                   Skills
                 </Nav.Link>
-                <Nav.Link href="#experience" className="link">
+                <Nav.Link href="#project" className="link">
                   Projects
                 </Nav.Link>
                 <Nav.Link href="#contact" className="link">
@@ -74,7 +74,7 @@ function App() {
           <div id="skills">
             <Skills darkMode={darkMode} />
           </div>
-          <div id="experience">
+          <div id="project">
             <Projects darkMode={darkMode} />
           </div>
           <div id="contact">

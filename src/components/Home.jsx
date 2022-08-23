@@ -9,16 +9,16 @@ import Container from 'react-bootstrap/esm/Container';
 
 const Home = ({ darkMode }) => {
     return (
-        <div>
+        <div style={{marginTop:"5rem"}}>
             <Container align="center" >
                 <Row>
                     <Col>
-                        <div style={{ margin: "5rem" }} >
+                        <div style={{ margin: "auto" }} >
                             <img src={profile} alt="" />
                         </div>
                     </Col>
                     <Col>
-                        <div style={{ marginTop: "13rem" }} >
+                        <div style={{ margin: "auto" }} >
                             <h1 className="display-3 hello" align="center"><code> I'm Manish Singh Chouhan</code></h1>
                             <h2 className="lead" align="center">I am a MERN Stack Web Developer </h2>
                         </div>
