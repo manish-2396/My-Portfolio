@@ -86,7 +86,7 @@ const Projects = ({ darkMode }) => {
                                                 <div className="flip-card-front">
                                                     <Card.Img variant="top" src={ecommerce} />
                                                     <Card.Body>
-                                                        <Card.Title align="center">-Clone Of Flipkart-</Card.Title>
+                                                        <Card.Title align="center">-Clone Of E-Commerce WebSite</Card.Title>
                                                         <Card.Text>
                                                             <td style={{ fontSize: "14px" }}>
                                                                 <p align="center">Features</p>
