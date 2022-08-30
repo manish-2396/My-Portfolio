@@ -58,7 +58,7 @@ const About = ({ darkMode }) => {
                   <br></br>
 
                   <div>
-                    <h5 style={{ fontWeight: "500" }} >Manish Singh Chouhan  <br />Post Baihar , Balaghat, Madhya Pradesh.<br /> Pin No : 481111 <br /> <strong style={{ fontWeight: "600" }}>7020949932</strong>
+                    <h5 style={{ fontWeight: "500" }} >Manish Singh Chouhan  <br />At.Post-Baihar , Balaghat, Madhya Pradesh.<br /> Pin No : 481111 <br /> <strong style={{ fontWeight: "600" }}>7020949932</strong>
                       <br />
                       <strong style={{ fontWeight: "600" }}>manishchouhan2396@gmail.com</strong>
                     </h5>

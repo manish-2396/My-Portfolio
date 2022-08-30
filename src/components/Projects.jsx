@@ -86,7 +86,7 @@ const Projects = ({ darkMode }) => {
                                                 <div className="flip-card-front">
                                                     <Card.Img variant="top" src={ecommerce} />
                                                     <Card.Body>
-                                                        <Card.Title align="center">-Clone Of E-Commerce WebSite</Card.Title>
+                                                        <Card.Title align="center">-Clone Of E-Commerce WebSite-</Card.Title>
                                                         <Card.Text>
                                                             <td style={{ fontSize: "14px" }}>
                                                                 <p align="center">Features</p>
@@ -139,52 +139,47 @@ const Projects = ({ darkMode }) => {
                                     <br></br>
                                 </Card>
                             </Col>
-                            {/* <Col lg={4} sm={12}>
+                            <Col lg={4} sm={12}>
                                 <Card align="center" className="exp" data-theme={darkMode ? "dark" : "light"}>
                                     <br></br>
                                     <center>
                                         <div class="flip-card">
                                             <div class="flip-card-inner">
                                                 <div className="flip-card-front">
-                                                    <Card.Img variant="top" src="https://user-images.githubusercontent.com/87421852/148261814-824f2abc-c591-4c58-bae8-d5e4c0d365c3.png" />
+                                                    <Card.Img variant="top" src="https://user-images.githubusercontent.com/100896129/186493915-cdc21735-7c0e-4bd3-9d36-81cdacd456d9.png" />
                                                     <Card.Body>
-                                                        <Card.Title align="center">-Clone of Healthmug-</Card.Title>
+                                                        <Card.Title align="center">-Clone of YouTube-</Card.Title>
                                                         <Card.Text>
                                                             <td style={{ fontSize: "14px" }}>
                                                                 <p align="center">Features</p>
-                                                                <tr>Landing page with CSS effects.</tr>
-                                                                <tr>Product page with sorting.</tr>
-                                                                <tr>Add to the cart page and checkout page.</tr>
-                                                                <tr>contact-us and review page..</tr>
-
+                                                                <tr>Searching Video</tr>
+                                                                <tr>Single Video Page</tr>
+                                                                {/* <tr>Add to the cart page and checkout page.</tr>
+                                                                <tr>contact-us and review page..</tr> */}
                                                             </td>
                                                         </Card.Text>
                                                     </Card.Body>
                                                 </div>
                                                 <div className="flip-card-back">
-
                                                     <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg" alt="css3" width="40" height="40" />
                                                     <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg" alt="html5" width="40" height="40" />
-
                                                     <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="javascript" width="40" height="40" />
-
-
                                                 </div>
                                             </div>
                                         </div>
                                     </center>
                                     <br></br>
                                     <div>
-                                        <a href="https://salavisushant.github.io/Healthmug-final.github.io/" target="_blank" rel="noreferrer noopener">
+                                        <a href="https://youtube-vert.vercel.app/" target="_blank" rel="noreferrer noopener">
                                             <Button variant={darkMode ? "outline-light" : "outline-dark"} className="sbtn">View Project</Button>
                                         </a>
-                                        <a href="https://github.com/salavisushant/Healthmug-final.github.io" target="_blank" rel="noreferrer noopener">
+                                        <a href="https://github.com/manishchouhan2396/youtubeclone" target="_blank" rel="noreferrer noopener">
                                             <Button variant={darkMode ? "outline-light" : "outline-dark"} className="sbtn">View Github Repo</Button>
                                         </a>
                                     </div>
                                     <br></br>
                                 </Card>
-                            </Col> */}
+                            </Col>
                         </Row>
                     </Zoom>
                     <br></br>

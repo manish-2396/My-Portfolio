@@ -11,10 +11,12 @@ import contact from '../media/contect.png'
 
 
 
+
 const Contact = ({ darkMode }) => {
 
     const [templateParams, setTemplateParams] = useState({
         from_name: '',
+        email_id: '',
         message: ''
     });
 
@@ -22,9 +24,14 @@ const Contact = ({ darkMode }) => {
         setTemplateParams({ ...templateParams, [e.target.name]: e.target.value })
     }
 
+
+
     const onSubmit = async (e) => {
         e.preventDefault();
-        emailjs.send('service_vjuue5m', 'template_96clll8', templateParams, 'user_aGjlUxhHVrd2775oHAEb0')
+        console.log(templateParams)
+
+
+        emailjs.send('service_zk3b57n', 'template_2y018go', templateParams  , 'fEYonI154DEJnfewa')
             .then((response) => {
                 console.log('SUCCESS!', response.status, response.text);
             }, (err) => {
@@ -37,6 +44,7 @@ const Contact = ({ darkMode }) => {
         });
         setTemplateParams({
             from_name: '',
+            email_id: '',
             message: ''
         })
     }
@@ -58,9 +66,6 @@ const Contact = ({ darkMode }) => {
                                 <strong style={{ fontWeight: "600" }}>manishchouhan2396@gmail.com</strong>
                             </p>
                         </div>
-
-
-
                     </Col>
                     <Col lg={8}>
                         <br></br>
@@ -68,6 +73,10 @@ const Contact = ({ darkMode }) => {
                         <Form onSubmit={e => onSubmit(e)}>
                             <Form.Group>
                                 <Form.Control onChange={e => onInputChange(e)} value={templateParams.from_name} name="from_name" className="ph name" type="name" placeholder="Enter your name" />
+                            </Form.Group>
+                            <br />
+                            <Form.Group>
+                                <Form.Control onChange={e => onInputChange(e)} value={templateParams.email_id} name="email_id" className="ph name" type="email" placeholder="Enter your mail id" />
                             </Form.Group>
                             <br />
                             <Form.Group>
