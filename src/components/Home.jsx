@@ -20,7 +20,7 @@ const Home = ({ darkMode }) => {
                     <Col>
                         <div style={{ margin: "auto" }} >
                             <h1 className="display-3 hello" align="center"><code> I'm Manish Singh Chouhan</code></h1>
-                            <h2 className="lead" align="center">I am a MERN Stack Web Developer </h2>
+                            <h2 className="lead" align="center">I am a Full Stack Web Developer </h2>
                         </div>
                     </Col>
                 </Row>
