@@ -69,7 +69,7 @@ const About = ({ darkMode }) => {
                       <FontAwesomeIcon className="dark" size="lg" icon={faLinkedinIn} />
                     </Button>
                   </a>
-                  <a className="social-icons" href="https://github.com/manishchouhan2396" target="_blank" rel="noreferrer noopener">
+                  <a className="social-icons" href="https://github.com/manish-2396" target="_blank" rel="noreferrer noopener">
                     <Button variant={darkMode ? "outline-light" : "outline-dark"}>
                       <FontAwesomeIcon className="dark" size="lg" icon={faGithub} />
                     </Button>

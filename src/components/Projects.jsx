@@ -70,7 +70,7 @@ const Projects = ({ darkMode }) => {
                                         <a href="https://62ff4a0819ae1d6132e30b21--indian-express-037.netlify.app/" target="_blank" rel="noreferrer noopener">
                                             <Button variant={darkMode ? "outline-light" : "outline-dark"} className="sbtn">View Project</Button>
                                         </a>
-                                        <a href="https://github.com/manishchouhan2396/IndianExpress_Clone" target="_blank" rel="noreferrer noopener">
+                                        <a href="https://github.com/manish-2396/IndianExpress_Clone" target="_blank" rel="noreferrer noopener">
                                             <Button variant={darkMode ? "outline-light" : "outline-dark"} className="sbtn">View Github Repo</Button>
                                         </a>
                                     </div>
@@ -132,7 +132,7 @@ const Projects = ({ darkMode }) => {
                                             <Button variant={darkMode ? "outline-light" : "outline-dark"} className="sbtn">View Project</Button>
                                         </a>
 
-                                        <a href="https://github.com/manishchouhan2396/E-com-website" target="_blank" rel="noreferrer noopener">
+                                        <a href="https://github.com/manish-2396/E-com-website" target="_blank" rel="noreferrer noopener">
                                             <Button variant={darkMode ? "outline-light" : "outline-dark"} className="sbtn">View Github Repo</Button>
                                         </a>
                                     </div>
@@ -173,7 +173,7 @@ const Projects = ({ darkMode }) => {
                                         <a href="https://youtube-vert.vercel.app/" target="_blank" rel="noreferrer noopener">
                                             <Button variant={darkMode ? "outline-light" : "outline-dark"} className="sbtn">View Project</Button>
                                         </a>
-                                        <a href="https://github.com/manishchouhan2396/youtubeclone" target="_blank" rel="noreferrer noopener">
+                                        <a href="https://github.com/manish-2396/youtubeclone" target="_blank" rel="noreferrer noopener">
                                             <Button variant={darkMode ? "outline-light" : "outline-dark"} className="sbtn">View Github Repo</Button>
                                         </a>
                                     </div>
