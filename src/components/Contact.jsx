@@ -50,7 +50,7 @@ const Contact = ({ darkMode }) => {
     }
 
     return (
-        <div data-theme={darkMode ? "dark" : "light"}>
+        <div data-theme={darkMode ? "dark" : "light"} style={{paddingTop:"5rem"}} >
             <br></br>
             <Container>
                 <Row>

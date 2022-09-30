@@ -17,6 +17,7 @@ const About = ({ darkMode }) => {
     <div className="about">
       <br></br>
       <br></br>
+      <br/>
       <Fade>
         <Container align='center'>
           <Row>
@@ -25,16 +26,6 @@ const About = ({ darkMode }) => {
                 <Card.Body>
                   <Card.Title><h2 className="lead">Let's have an introduction!</h2></Card.Title>
                   <br></br>
-                  <Card.Text>
-                    <p style={{ fontSize: "17px", fontWeight: "500" }}>
-                      Enthusiastic aspiring full-stack web developer
-                      specialized in <strong>  MERN </strong>
-                      stack  having fascination towards computer and technology.
-                      Keen to create new and innovative websites by showcasing my skills.
-                      Apart from that a great team player, ability to work with different
-                      kinds of people with different thinkings.
-                    </p>
-                  </Card.Text>
                   <Card.Text>
                     <p style={{ fontSize: "17px", fontWeight: "500" }}>
                       I love to work on exciting projects that test what I've

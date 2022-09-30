@@ -16,9 +16,12 @@ const Projects = ({ darkMode }) => {
     return (
         <div data-theme={darkMode ? "dark" : "light"}>
             <br></br>
+            <br/>
+            <br/>
             <Fade>
                 <Container>
                     <br></br>
+                    <br />
                     <h2 className="lead" align="center"><b>- Projects -</b></h2>
                     <br></br>
                     <Zoom>
@@ -173,7 +176,7 @@ const Projects = ({ darkMode }) => {
                                         <a href="https://youtube-vert.vercel.app/" target="_blank" rel="noreferrer noopener">
                                             <Button variant={darkMode ? "outline-light" : "outline-dark"} className="sbtn">View Project</Button>
                                         </a>
-                                        <a href="https://github.com/manish-2396/youtubeclone" target="_blank" rel="noreferrer noopener">
+                                        <a href="https://github.com/manish-2396/Youtube-Clone" target="_blank" rel="noreferrer noopener">
                                             <Button variant={darkMode ? "outline-light" : "outline-dark"} className="sbtn">View Github Repo</Button>
                                         </a>
                                     </div>
@@ -185,7 +188,7 @@ const Projects = ({ darkMode }) => {
                     <br></br>
                     <Zoom>
                         <Row>
-                            <Col lg={4} sm={12}>
+                            {/* <Col lg={4} sm={12}>
 
                             </Col>
                             <Col lg={4} sm={12}>
@@ -193,7 +196,7 @@ const Projects = ({ darkMode }) => {
                             </Col>
                             <Col lg={4} sm={12}>
 
-                            </Col>
+                            </Col> */}
                         </Row>
                     </Zoom>
                 </Container>
