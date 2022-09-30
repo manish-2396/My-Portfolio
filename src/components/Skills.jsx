@@ -11,7 +11,7 @@ import { faCss3Alt, faHtml5, faJs, faNodeJs, faReact, faGithub } from '@fortawes
 
 const Skills = ({ darkMode }) => {
     return (
-        <div data-theme={darkMode ? "dark" : "light"}>
+        <div data-theme={darkMode ? "dark" : "light"} style={{paddingTop:"5rem"}} >
             <br></br>
             <Slide>
                 <Container>

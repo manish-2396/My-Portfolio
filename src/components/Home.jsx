@@ -1,7 +1,4 @@
 import React from 'react'
-// import { AttentionSeeker } from 'react-awesome-reveal';
-// import helloLight from '../media/SushantPortfolio.png';
-// import helloDark from '../media/hello-dark.png';
 import profile from "../media/manish.png"
 import Col from 'react-bootstrap/Col'
 import Row from 'react-bootstrap/esm/Row';
@@ -9,16 +6,16 @@ import Container from 'react-bootstrap/esm/Container';
 
 const Home = ({ darkMode }) => {
     return (
-        <div style={{marginTop:"5rem"}}>
+        <div style={{paddingTop:"5rem"}}>
             <Container align="center" >
                 <Row>
                     <Col>
-                        <div style={{ margin: "auto" }} >
-                            <img src={profile} alt="" />
+                        <div style={{ margin: "auto"}} >
+                            <img style={{ width:"25rem" }} src={profile} alt="Manish'pic" />
                         </div>
                     </Col>
                     <Col>
-                        <div style={{ margin: "auto" }} >
+                        <div style={{ margin: "auto" , paddingTop:"40%"}} >
                             <h1 className="display-3 hello" align="center"><code> I'm Manish Singh Chouhan</code></h1>
                             <h2 className="lead" align="center">I am a Full Stack Web Developer </h2>
                         </div>

@@ -1,6 +1,6 @@
 import "bootstrap/dist/css/bootstrap.min.css";
 import { BrowserRouter as Router, Route } from "react-router-dom";
-import { Home, About, Skills, Projects, Contact, Footer } from "./components";
+import { Home, About, Skills, Projects, Contact, Footer , Github } from "./components";
 import { useState } from "react";
 import Navbar from "react-bootstrap/Navbar";
 import Nav from "react-bootstrap/Nav";
@@ -42,8 +42,11 @@ function App() {
                 <Nav.Link href="#skills" className="link">
                   Skills
                 </Nav.Link>
-                <Nav.Link href="#project" className="link">
+                <Nav.Link href="#projects" className="link">
                   Projects
+                </Nav.Link>
+                <Nav.Link href="#github" className="link">
+                  Github
                 </Nav.Link>
                 <Nav.Link href="#contact" className="link">
                   Contact
@@ -74,8 +77,11 @@ function App() {
           <div id="skills">
             <Skills darkMode={darkMode} />
           </div>
-          <div id="project">
+          <div id="projects">
             <Projects darkMode={darkMode} />
+          </div>
+          <div id="github">
+            <Github darkMode={darkMode} />
           </div>
           <div id="contact">
             <Contact darkMode={darkMode} />
