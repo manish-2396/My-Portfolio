@@ -57,7 +57,6 @@ function App() {
                 onClick={toggleDarkMode}
                 variant={darkMode ? "outline-light" : "outline-dark"}
               >
-                {darkMode ? "Light Mode" : "Dark Mode"}{" "}
                 <FontAwesomeIcon
                   className="dark"
                   size="lg"
