@@ -31,7 +31,7 @@ const Contact = ({ darkMode }) => {
         console.log(templateParams)
 
 
-        emailjs.send('service_zk3b57n', 'template_2y018go', templateParams  , 'fEYonI154DEJnfewa')
+        emailjs.send('service_4jp7yi2', 'template_p7v4hzr', templateParams  , 'fEYonI154DEJnfewa')
             .then((response) => {
                 console.log('SUCCESS!', response.status, response.text);
             }, (err) => {
