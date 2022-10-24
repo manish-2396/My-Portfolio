@@ -11,12 +11,11 @@ import { faCss3Alt, faHtml5, faJs, faNodeJs, faReact, faGithub } from '@fortawes
 
 const Skills = ({ darkMode }) => {
     return (
-        <div data-theme={darkMode ? "dark" : "light"} style={{paddingTop:"5rem"}} >
+        <div data-theme={darkMode ? "dark" : "light"} style={{paddingTop:"2.8rem"}} >
             <br></br>
             <Slide>
                 <Container>
                     <Row>
-
                         <Col lg={2} xs={4}>
                             <br></br>
                             <Card className="nbcard">
