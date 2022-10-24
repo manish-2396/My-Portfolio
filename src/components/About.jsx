@@ -14,10 +14,7 @@ import Row from 'react-bootstrap/Row'
 const About = ({ darkMode }) => {
 
   return (
-    <div className="about">
-      <br></br>
-      <br></br>
-      <br/>
+    <div className="about" style={{ paddingTop:"10rem" }} >
       <Fade>
         <Container align='center'>
           <Row>

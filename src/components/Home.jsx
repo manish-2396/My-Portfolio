@@ -6,7 +6,7 @@ import Container from 'react-bootstrap/esm/Container';
 
 const Home = ({ darkMode }) => {
     return (
-        <div style={{paddingTop:"5rem"}}>
+        <div style={{paddingTop:"1.5rem"}}>
             <Container align="center" >
                 <Row>
                     <Col>
