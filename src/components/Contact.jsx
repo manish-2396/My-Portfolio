@@ -6,7 +6,6 @@ import Button from 'react-bootstrap/esm/Button'
 import Container from 'react-bootstrap/esm/Container'
 import Row from 'react-bootstrap/esm/Row'
 import Col from 'react-bootstrap/Col'
-import contact from '../media/contect.png'
 
 
 
@@ -89,7 +88,7 @@ const Contact = ({ darkMode }) => {
                     </Col>
                 </Row>
                 <br />
-                <img src={contact} alt="contact" className="contact-img img-fluid" />
+                <img src="https://user-images.githubusercontent.com/100896129/203706247-c17e6657-3678-459d-aab0-ba994ffe0809.png" alt="contact" className="contact-img img-fluid" />
             </Container>
 
         </div>

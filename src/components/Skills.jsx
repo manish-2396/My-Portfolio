@@ -1,5 +1,4 @@
 import React from 'react'
-import skills from "../media/myskills.png"
 import { Slide } from "react-awesome-reveal";
 import Container from 'react-bootstrap/esm/Container'
 import Row from 'react-bootstrap/esm/Row'
@@ -53,7 +52,7 @@ const Skills = ({ darkMode }) => {
                         <Col lg={4} xs={8}>
                             <h1 className="display-3 skill-h" style={{ fontWeight: "600" , textAlign:"center" }} >Tools<p className="with">I Use</p> </h1>
 
-                            <img style={{marginTop:"6rem" , marginRight:"5rem"}}  src={skills} alt="skills" className="skills-img img-fluid animated" />
+                            <img style={{marginTop:"6rem" , marginRight:"5rem"}}  src="https://user-images.githubusercontent.com/100896129/203706319-b38cee09-19f7-48a2-8e70-7575b5a0f6ad.png" alt="skills" className="skills-img img-fluid animated" />
                         </Col>
                         <Col lg={6} xs={12}>
                             <br />

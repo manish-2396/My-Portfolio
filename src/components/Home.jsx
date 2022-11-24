@@ -1,5 +1,4 @@
 import React from 'react'
-import profile from "../media/manish.png"
 import Col from 'react-bootstrap/Col'
 import Row from 'react-bootstrap/esm/Row';
 import Container from 'react-bootstrap/esm/Container';
@@ -11,7 +10,7 @@ const Home = ({ darkMode }) => {
                 <Row>
                     <Col>
                         <div style={{ margin: "auto"}} >
-                            <img style={{ width:"25rem" }} src={profile} alt="Manish'pic" />
+                            <img style={{ width:"25rem" }} src="https://user-images.githubusercontent.com/100896129/203706303-7b22682b-db8c-424e-aeb3-dbfc11679a3b.png" alt="Manish'pic" />
                         </div>
                     </Col>
                     <Col>

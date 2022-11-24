@@ -23,9 +23,9 @@
 
 :root {
     --bg-color: #b1d0e6;
-    --text-color: black;
+    --text-color: #0d6919;
     --page-color: #D8EEFE;
-    --hello: #121212;
+    --hello: #0d6919;
     --description: rgba(83, 8, 8, 0.726);
     --name:#084b50;
     --border-width: 1px;

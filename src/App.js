@@ -9,7 +9,6 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faAdjust } from "@fortawesome/free-solid-svg-icons";
 import "./components/styles.css";
 import "./components/button.css";
-import logo from './media/logo.png'
 
 function App() {
   const [darkMode, setDarkMode] = useState(true);
@@ -27,8 +26,8 @@ function App() {
           >
             <img
               style={{ width: "5%", height: "2%", marginLeft: "1%" }}
-              src={logo}
-              alt=""
+              src="https://user-images.githubusercontent.com/100896129/203707776-8e884239-64fe-4ac5-9f28-121ecdec6dd0.png"
+              alt="logo"
             />
             <Navbar.Brand href="#home" className="navname">
               Welcome
@@ -36,7 +35,7 @@ function App() {
             <Navbar.Toggle aria-controls="basic-navbar-nav" />
             <Navbar.Collapse id="basic-navbar-nav">
               <Nav className="mr-auto">
-                <Nav.Link href="#about" className="link">
+                <Nav.Link href="#about" className="link" >
                   About
                 </Nav.Link>
                 <Nav.Link href="#skills" className="link">
@@ -66,7 +65,6 @@ function App() {
               </Button>
             </Navbar.Collapse>
           </Navbar>
-
           <div id="home">
             <Home darkMode={darkMode} />
           </div>
