@@ -318,7 +318,7 @@ const Projects = ({ darkMode }) => {
                   <br />
                   <div>
                     <a
-                      href="https://bitrixclone.netlify.app/"
+                      href="https://bitrix-clone24.vercel.app/"
                       target="_blank"
                       rel="noreferrer noopener"
                     >
