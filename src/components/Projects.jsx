@@ -156,6 +156,7 @@ const Projects = ({ darkMode }) => {
                                 <p align="center">Features</p>
                                 <tr>Sign-up & Log-In</tr>
                                 <tr>OTP Verification</tr>
+                                <tr>Pagination</tr>
                                 <tr>Multiple News pages with filter</tr>
                                 <tr>
                                   Header and Footer with routing functionality
