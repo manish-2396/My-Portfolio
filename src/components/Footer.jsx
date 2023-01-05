@@ -6,7 +6,7 @@ const Footer = () => {
             <hr/>
             <p className="footer-text">Made by Manish Singh Chouhan<br/>
             <br/>
-            <small>All rights reserved © 2022 Manish Singh Chouhan</small>
+            <small>All rights reserved © 2023 Manish Singh Chouhan</small>
             <br/>
             </p>
         </div>
