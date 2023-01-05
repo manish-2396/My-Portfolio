@@ -23,9 +23,9 @@
 
 :root {
     --bg-color: #b1d0e6;
-    --text-color: #0d6919;
+    --text-color: #0d1b69;
     --page-color: #D8EEFE;
-    --hello: #0d6919;
+    --hello: #27690d;
     --description: rgba(83, 8, 8, 0.726);
     --name:#084b50;
     --border-width: 1px;
@@ -35,10 +35,10 @@
 [data-theme="dark"] {
     --bg-color: #0b043f;
     --text-color: #ffffff;
-    --page-color: #0b043f;
+    --page-color: #040d3f;
     --description: #eae7dc;
     --hello: #ffffff;
-    --name: #0d6919;
+    --name: #691f0d;
     --border-width: 1px;
 }
 
