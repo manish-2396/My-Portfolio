@@ -29,8 +29,12 @@ const Contact = ({ darkMode }) => {
         e.preventDefault();
         console.log(templateParams)
 
+        let serviceId = ''
+        let templateId = ''
+        let PublicKey = ''
 
-        emailjs.send('service_15jmh8j', 'template_p7v4hzr', templateParams  , 'fEYonI154DEJnfewa')
+
+        emailjs.send(serviceId, templateId, templateParams  , PublicKey)
             .then((response) => {
                 console.log('SUCCESS!', response.status, response.text);
             }, (err) => {
