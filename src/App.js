@@ -1,6 +1,14 @@
 import "bootstrap/dist/css/bootstrap.min.css";
 import { BrowserRouter as Router, Route } from "react-router-dom";
-import { Home, About, Skills, Projects, Contact, Footer , Github } from "./components";
+import {
+  Home,
+  About,
+  Skills,
+  Projects,
+  Contact,
+  Footer,
+  Github,
+} from "./components";
 import { useState } from "react";
 import Navbar from "react-bootstrap/Navbar";
 import Nav from "react-bootstrap/Nav";
@@ -35,7 +43,7 @@ function App() {
             <Navbar.Toggle aria-controls="basic-navbar-nav" />
             <Navbar.Collapse id="basic-navbar-nav">
               <Nav className="mr-auto">
-                <Nav.Link href="#about" className="link" >
+                <Nav.Link href="#about" className="link">
                   About
                 </Nav.Link>
                 <Nav.Link href="#skills" className="link">

@@ -1,15 +1,9 @@
-.mode-button{
-    margin-left: 40%;
-
-
+.mode-button {
+  margin-left: 40%;
 }
-
 
 @media screen and (max-width: 990px) {
-	.mode-button{
-        margin-left: 2%;
-    
-    
-    }
+  .mode-button {
+    margin-left: 2%;
+  }
 }
-

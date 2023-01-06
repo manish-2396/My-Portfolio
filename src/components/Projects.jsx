@@ -441,4 +441,3 @@ const Projects = ({ darkMode }) => {
 };
 
 export default Projects;
-
