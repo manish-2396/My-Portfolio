@@ -1,13 +1,17 @@
 import React from "react";
 import GitHubCalendar from "react-github-calendar";
 import Container from "react-bootstrap/esm/Container";
-import { Zoom, Fade } from "react-awesome-reveal";
+import { Zoom } from "react-awesome-reveal";
 import Row from "react-bootstrap/esm/Row";
 import Col from "react-bootstrap/esm/Col";
 
 const Github = ({ darkMode }) => {
   return (
-    <div style={{ paddingTop: "6rem" }} className="lead">
+    <div
+      style={{ paddingTop: "6rem" }}
+      className="lead"
+      data-theme={darkMode ? "dark" : "light"}
+    >
       <Container align="center">
         <h2 className="lead" align="center">
           <b>- GitHub Calendar -</b>

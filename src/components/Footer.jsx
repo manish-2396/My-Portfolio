@@ -1,8 +1,8 @@
 import React from "react";
 
-const Footer = () => {
+const Footer = ({ darkMode }) => {
   return (
-    <div>
+    <div data-theme={darkMode ? "dark" : "light"} >
       <hr />
       <p className="footer-text">
         Made by Manish Singh Chouhan

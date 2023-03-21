@@ -22,9 +22,9 @@ const Contact = ({ darkMode }) => {
     e.preventDefault();
     console.log(templateParams);
 
-    let serviceId = "";
-    let templateId = "";
-    let PublicKey = "";
+    let serviceId = "service_15jmh8j";
+    let templateId = "template_p7v4hzr";
+    let PublicKey = "fEYonI154DEJnfewa";
 
     emailjs.send(serviceId, templateId, templateParams, PublicKey).then(
       (response) => {

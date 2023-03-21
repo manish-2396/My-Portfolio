@@ -21,7 +21,6 @@ import "./components/button.css";
 function App() {
   const [darkMode, setDarkMode] = useState(true);
   const toggleDarkMode = () => setDarkMode(darkMode ? false : true);
-  console.log(process.env);
 
   return (
     <Router>
@@ -91,7 +90,7 @@ function App() {
           <div id="contact">
             <Contact darkMode={darkMode} />
           </div>
-          <Footer />
+          <Footer darkMode={darkMode}  />
         </Route>
         <br></br>
       </div>
